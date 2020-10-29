@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <title>Brand</title>
+</head>
+<body>
+  <!--   Aquí comienza el navbar -->
+    <nav class="fadeInDown">
+        <figure class="brand_image">
+            <a href="./index.html">
+                <img src="./images/logo.png" alt="">
+            </a>
+        </figure>
+        
+        <div class="nav_options">
+            <ul>
+                <li> <a class="options" href="#">Faqs</a> </li>
+                <li> <a class="options" href="./index.html">Producto y descripción</a> </li>
+            </ul>
+        
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col4">
+                <div class="modulo_pago">
+
+                    <figure class="modulo_pago_images">
+                        <img src="images/box2.png" alt="">
+                    </figure>
+
+                    <h3>Producto 1</h3>
+                    <p>
+                        Miles de productos hay en el mercado pero nada como una caja de gatitos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col8">
+                <div class="modulo_pago">
+                    <div class="modulo">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9WSANZRZ33T56" method="POST">
+                            <label for="name">Nombre</label>
+                            <br>
+                            <input type="text" placeholder="" name="name" class="data" required>
+                            <br>
+
+                            <label for="email">E-mail</label>
+                            <br>
+                            <input type="email" placeholder="" name="email" class="data" required>
+                            <br>
+
+                            <label for="phone">teléfono</label>
+                            <br>
+                            <input type="tel" placeholder="" name="phone" class="data" >
+
+                            <input type="submit" class="main_button" name="submit" value="Confirmar pago">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    
+
+    <footer>
+        <div class="option"> Terminos y condiciones</div>
+        <div class="option">contacto@brand.com</div>
+    </footer>
+
+        <script src="./scripts/script.js"></script>
+</body>
+</html>

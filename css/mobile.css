@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    .benefits, .mentions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mention-wrapper{
+        max-width: 343px;
+        margin-bottom: 23px;
+    }
+    .mention_img-container {
+        max-width: 343px;
+    }
+    .comment h3 {        
+        margin: 14px 0;
+    }
+}
